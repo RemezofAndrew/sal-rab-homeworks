@@ -31,7 +31,7 @@ function addInCartMessage(title, price) {
 
     // выведите переменную message в консоль
     let message;
-    
+
 
     // Конец решения задания №1.1.
 
@@ -45,10 +45,13 @@ function addInCartCountChange(value) {
 
     // создайте переменную newValue
     let newValue
+
     // присвойте ей значение oldValue
     let newValue = oldValue
+
     // увеличьте значение newValue на 1
     newValue + 1 = value
+    
 
 
     // Конец решения задания №1.2.
