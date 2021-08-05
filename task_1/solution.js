@@ -5,24 +5,15 @@ function addInCartMessage(title, price) {
 
     // Задание №1.1. Оповещение о добавлении в корзину
 
-    // создайте переменную message
-    let message;
-    // присвойте переменной message значение переменной productName
-    let message = productName;
-    // добавьте в конец переменной message пробел
-    message ;
-    // добавьте в конец переменной message текст 'за'
-    message'за';
-    // добавьте в конец переменной message пробел
-    message 'за';
-    // добавьте в конец переменной message значение переменной productPrice
-    messageprice'за';
-    // добавьте в конец переменной message пробел
-    message price'за';
-    // добавьте в конец переменной message текст 'теперь в корзине!'
-    message'теперь в корзине!'price'за';
-    // выведите переменную message в консоль
-    console.log(message'теперь в корзине!'price'за');
+    let message;// создайте переменную message
+    let message = productName;// присвойте переменной message значение переменной productName
+    message ;// добавьте в конец переменной message пробел
+    message'за';// добавьте в конец переменной message текст 'за'
+    message 'за';// добавьте в конец переменной message пробел
+    messageprice'за';// добавьте в конец переменной message значение переменной productPrice
+    message price'за';// добавьте в конец переменной message пробел
+    message'теперь в корзине!'price'за';// добавьте в конец переменной message текст 'теперь в корзине!'
+    console.log(message'теперь в корзине!'price'за');// выведите переменную message в консоль
 
 
     // Конец решения задания №1.1.
@@ -52,11 +43,10 @@ function addInCartSumChange(sum, delta) {
     // Задание №1.3. Увеличение суммы в корзине
 
     // создайте переменную newSum и присвойте ей сумму oldSum и difference
-    let newSum
-    newSum = oldsum + difference
-
+    let newSum;
+    newSum = oldsum + difference;
     // создайте переменную newSumText и присвойте ей результат склеивания переменной newSum и текста ' ₽'
-
+    
     // замените склеивание, используемое в newSum Text на шаблонную строку
 
     // Конец решения задания №1.3.
