@@ -7,13 +7,13 @@ function addInCartMessage(title, price) {
 
     let message;// создайте переменную message
     let message = productName;// присвойте переменной message значение переменной productName
-    message ;// добавьте в конец переменной message пробел
-    message'за';// добавьте в конец переменной message текст 'за'
-    message 'за';// добавьте в конец переменной message пробел
-    messageprice'за';// добавьте в конец переменной message значение переменной productPrice
-    message price'за';// добавьте в конец переменной message пробел
-    message'теперь в корзине!'price'за';// добавьте в конец переменной message текст 'теперь в корзине!'
-    console.log(message'теперь в корзине!'price'за');// выведите переменную message в консоль
+    message = message + " ";// добавьте в конец переменной message пробел
+    message = message + 'за';// добавьте в конец переменной message текст 'за'
+    message = message + 'за' + " ";// добавьте в конец переменной message пробел
+    message = message + 'за' + price;// добавьте в конец переменной message значение переменной productPrice
+    message = message + 'за' + price + " ";// добавьте в конец переменной message пробел
+    message = message + 'за' + price + 'теперь в корзине!';// добавьте в конец переменной message текст 'теперь в корзине!'
+    console.log(message + 'за' + price + 'теперь в корзине!');// выведите переменную message в консоль
 
 
     // Конец решения задания №1.1.
@@ -26,7 +26,7 @@ function addInCartCountChange(value) {
     // Задание №1.2. Увеличение количества в корзине
     let oldValue = value;
     // создайте переменную newValue
-    let newValue22;
+    let newValue;
     // присвойте ей значение oldValue
     newValue = oldValue;
     // увеличьте значение newValue на 1
@@ -49,7 +49,7 @@ function addInCartSumChange(sum, delta) {
     let newSumText
     newSumText = newSum' ₽'   
     // замените склеивание, используемое в newSum Text на шаблонную строку
-    newSum Text = ' ₽'
+    newSumText = ' ₽'
 
    // Конец решения задания №1.3.
 
