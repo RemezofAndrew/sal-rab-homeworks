@@ -35,6 +35,7 @@ function calcDiscount(sum, min, discount) {
     // создайте переменную discountPrice
     // blabla
     let discountPrice;
+    discountPrice = 100
 
     // если productsSum больше или равно discountMinSum,
     // то присвойте discountSum значение discountPart процентов от productsSum,
