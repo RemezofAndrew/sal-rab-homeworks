@@ -41,7 +41,7 @@ function calcDiscount(sum, min, discount) {
     // иначе присвойте discountSum значение 0
     if (productsSum >= discountMinSum)
     discountSum = discountPart;
-    discountSum = 0;
+    else discountSum = 0;
 
     // Конец решения задания №2.2.
 
