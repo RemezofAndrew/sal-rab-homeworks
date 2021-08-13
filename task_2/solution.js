@@ -13,12 +13,12 @@ function calcShipping(sum, min, shipping) {
     } else {let shippingSum = 0};
     // если productsSum Больше или равна freeShippingMinSum,
     // то shippingSum присвоить значение 0
-    if { (productsSum >= freeShippingMinSum) }
-    else { (let shippingSum = 0) };
+    if (productsSum >= freeShippingMinSum) {
+    }else { let shippingSum = 0 };
     // если productsSum больше 0 и меньше freeShippingMinSum,
     // то shippingSum присвоить значение shippingPrice
-    if { (productsSum >= freeShippingMinSum) }
-    else { (let shippingSum = shippingPrice) };
+    if (productsSum >= freeShippingMinSum) {
+    }else {let shippingSum = shippingPrice};
     // Конец решения задания №2.1.
 
     return shippingSum;
@@ -38,9 +38,7 @@ function calcDiscount(sum, min, discount) {
     // если productsSum больше или равно discountMinSum,
     // то присвойте discountSum значение discountPart процентов от productsSum,
     // иначе присвойте discountSum значение 0
-    if (productsSum >= discountMinSum)
-    discountSum = discountPart;
-    else (discountSum = 0);
+    if (productsSum >= discountMinSum) ? discountSum = discountPart; else (discountSum = 0);
 
     // Конец решения задания №2.2.
 
