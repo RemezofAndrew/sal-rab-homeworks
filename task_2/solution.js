@@ -9,9 +9,8 @@ function calcShipping(sum, min, shipping) {
     let shippingSum;
     // если productsSum равно 0,
     // то shippingSum присвоить значение 0
-    if (productsSum == 0) {
-     
-     
+    if (productsSum = 0) {
+
         shippingSum = 0
 
     }
@@ -23,7 +22,7 @@ function calcShipping(sum, min, shipping) {
 
         shippingSum = 0;
       
-      } 
+     } 
     
     // Конец решения задания №2.1.
 
